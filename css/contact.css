@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: url(../img/moon-2048727_1920.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+h2 {
+  font-size: 26px;
+  line-height: 41px;
+  font-weight: normal;
+}
+
+.header {
+  background-color:black;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  display: inline-block;
+}
+/*main-content*/
+
+main {
+  min-height: 100%;
+  padding: 0% 2%;
+}
+
+.introduction {
+  text-align: center;
+  margin-top: 5%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.introduction h1 {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 30px;
+  padding-top: 100px;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 51px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.line {
+  max-width: 31vw;
+  height: 1px;
+  background-color: #ffffff;
+  position: relative;
+  margin: 0 auto;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.container h2 {
+  text-align: center;
+  color: #fff;
+}
+
+#contactForm {
+  background-color: rgba(0,0,0,0.6)
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  padding: 10px 10px;
+}
+
+.form-group1 {
+  padding: 10px 10px;
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.form-group2 {
+  padding: 10px 10px;
+  display: block;
+  float: right;
+  width: 50%;
+}
+.form-error {
+  color: rgb(255, 0, 0);
+  display: none;
+  font-size: 14px;
+}
+
+#contactForm input {
+  color: black;
+}
+#contactForm textarea {
+  color: black;
+  padding: 5px;
+}
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input ::placeholder {
+  color: #ff0000;
+}
+
+button {
+  background-color: #25CE6E;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.144);
+  border: none;
+  width: 100%;
+  padding: 4px;
+  font-size: 20px;
+  line-height: 33px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+#message {
+  height: 70px;
+  width: 100%;
+}
+
+#submitMessage {
+  display: none;
+}
+
+.container span {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(38, 179, 73, 0.726);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+
+
